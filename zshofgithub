@@ -1,0 +1,8 @@
+#!/bin/zsh
+#one shell of  zsh
+case $1 in
+   -a)  echo  "hello"
+     -b)  echo  "two"
+     -c)  echo  "three"
+     *)  echo "Usage:%0  argument"
+esac
